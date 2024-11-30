@@ -16,7 +16,7 @@ flash-attn==2.7.0.post2
 sentencepiece
 wandb
 einops
-xformers>=0.0.23.post1
+
 optimum==1.16.2
 hf_transfer
 colorama
@@ -33,9 +33,8 @@ tensorboard
 python-dotenv==1.0.1
 autoawq>=0.2.5
 triton>=2.3.0
-liger-kernel==0.4.1
-
-mamba-ssm==1.2.0.post1
+# xformers
+# mambs-ssm==1.2.0.post1
 
 # remote filesystems
 s3fs>=2024.5.0
@@ -52,4 +51,3 @@ langdetect==1.0.9
 immutabledict==4.2.0
 antlr4-python3-runtime==4.13.2
 
-torchao==0.5.0
